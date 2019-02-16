@@ -38,6 +38,6 @@ def add_s(arr)
        el
      else
        el + "s"
+    end
   end
- end
 end
