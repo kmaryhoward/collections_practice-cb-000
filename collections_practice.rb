@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(arr)
   arr. sort { |a, b| b <=> a }
-end 
+end
 
 def sort_array_char_count(arr)
   arr.sort { |a, b| a.size <=> b.size }
@@ -18,7 +18,7 @@ end
 
 def reverse_array(arr)
   arr.reverse
-end 
+end
 
 def kesha_maker(arr)
   arr.each { |x| x.insert(2, "$")}
@@ -33,7 +33,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index.collect do |el, index| 
+  arr.each_with_index.collect do |el, index|
      if index == 1
        el
      else
@@ -41,4 +41,3 @@ def add_s(arr)
   end
  end
 end
-
